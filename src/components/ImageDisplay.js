@@ -21,7 +21,7 @@ const ImageDisplay = ({ originalImage, processedImage, loading }) => {
 
       {!loading && processedImage && (
         <div className="image-section col-lg-5 col-md-6 col-sm-12">
-          <h2>Processed Image</h2>
+          <h2>BGRemoved Image</h2>
           <img src={processedImage} alt="Processed" className="img-fluid processed-img" />
         </div>
       )}
