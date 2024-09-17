@@ -24,7 +24,7 @@ const Dropzone = () => {
           formData.append('image', file);
           
           const response = await axios.post(
-            'https://appsail-50022284582.development.catalystappsail.in/upload', formData, {
+            'https://bg-remover-backend-gqp1.onrender.com/upload', formData, {
             responseType: 'blob',
           });
 
