@@ -24,7 +24,7 @@ const Dropzone = () => {
           formData.append('image', file);
           
           const response = await axios.post(
-            'http://localhost:3002/upload', formData, {
+            'https://appsail-50022284582.development.catalystappsail.in/upload', formData, {
             responseType: 'blob',
           });
 
